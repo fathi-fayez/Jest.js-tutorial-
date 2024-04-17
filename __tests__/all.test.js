@@ -104,9 +104,9 @@ test("Expect Anything", () => {
   expect("fathi").toEqual(expect.anything());
 });
 test("Expect Any Constructor", () => {
-  expect(4).toEqual(expect..any(Number));
+  expect(4).toEqual(expect.any(Number));
 });
 test("Expect Array To Be Found In The Main Array", () => {
   const myArray = [1, 2, 3, 4, 5];
-  expect(myArray).toEqual(expect.arrayContaining([1, 2, 7]));
+  expect(myArray).toEqual(expect.arrayContaining([1, 2]));
 });
